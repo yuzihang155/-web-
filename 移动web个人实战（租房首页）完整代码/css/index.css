@@ -1,0 +1,271 @@
+.w {
+  padding: 56px 0.4rem 62px 0.4rem;
+}
+body {
+  background-color: #f9f9f9;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, "SimSun";
+}
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 46px;
+  background-color: #fff;
+}
+.header .city {
+  padding: 0 15px;
+  height: 100%;
+  line-height: 46px;
+  color: #222;
+  font-size: 14px;
+  flex: none;
+}
+.header .search {
+  position: relative;
+  height: 32px;
+  flex: auto;
+}
+.header .search img {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  width: 12px;
+}
+.header .search input {
+  padding-left: 38px;
+  padding-right: 16px;
+  width: 100%;
+  height: 100%;
+  line-height: 32px;
+  border-radius: 16px;
+  background-color: #f5f5f5;
+}
+.header .search input::placeholder {
+  color: #aaa;
+  font-size: 12px;
+}
+.header .dialog {
+  width: 50px;
+  height: 100%;
+  flex: none;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .dialog img {
+  width: 18px;
+  margin-top: -3px;
+}
+.banner_body img {
+  width: 100%;
+  box-shadow: 0px 14px 14px -10px rgba(0, 0, 0, 0.3);
+}
+.banner_body .dot_box {
+  margin-top: 0.32rem;
+  display: flex;
+  justify-content: center;
+}
+.banner_body .dot_box i {
+  flex: none;
+  margin: 0 0.08rem;
+  width: 0.2rem;
+  height: 0.08rem;
+  border-radius: 0.04rem;
+  background-color: #ddd;
+}
+.banner_body .dot_box i.active {
+  width: 0.266667rem;
+  background-color: #333;
+}
+.rent_nav {
+  display: flex;
+  margin-top: 0.48rem;
+}
+.rent_nav img {
+  width: 0;
+  flex: 1;
+}
+.rent_nav .right {
+  margin-left: 0.266667rem;
+}
+.discount_container {
+  padding-top: 36px;
+}
+.discount_container .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.discount_container .title span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.discount_container .title img {
+  width: 8px;
+  height: 14px;
+}
+.discount_container .content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.discount_container .content .item {
+  flex: 1;
+}
+.discount_container .content .right {
+  margin-left: 0.266667rem;
+}
+.discount_container .content img {
+  width: 100%;
+}
+.discount_container .content .title {
+  margin-top: 10px;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+.discount_container .content .size {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #999;
+}
+.discount_container .content .price {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #f39800;
+}
+.ad_body {
+  margin-top: 30px;
+}
+.ad_body img {
+  width: 100%;
+}
+.recommend_body .title_body {
+  height: 42px;
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.recommend_body .title_body .left {
+  font-size: 18px;
+  font-weight: bold;
+}
+.recommend_body .title_body .right {
+  margin-top: -4px;
+}
+.recommend_body .title_body .right a {
+  float: left;
+  font-size: 14px;
+  color: #999;
+  padding: 6px 4px;
+}
+.recommend_body .title_body .right a.active {
+  color: #333;
+  background: url(../icons/home_list_selected@2x.png) no-repeat;
+  background-size: 12px auto;
+  background-position: center bottom;
+}
+.recommend_body .goods_body li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+.recommend_body .goods_body .goods_img {
+  flex: none;
+  width: 2.96rem;
+}
+.recommend_body .goods_body .right_body {
+  overflow: hidden;
+  margin-left: 0.426667rem;
+  flex: auto;
+}
+.recommend_body .goods_body .title {
+  font-size: 14px;
+}
+.recommend_body .goods_body .adress {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #999;
+}
+.recommend_body .goods_body .detail_adress {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.recommend_body .goods_body .advantage {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #999;
+  display: flex;
+}
+.recommend_body .goods_body .advantage span {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 3px 9px;
+  line-height: 1;
+  margin-right: 10px;
+}
+.recommend_body .goods_body .price {
+  margin-top: 8px;
+  color: #f39800;
+  font-size: 12px;
+}
+.recommend_body .goods_body .price span {
+  font-size: 14px;
+  font-weight: bold;
+}
+.more {
+  margin: 0.666667rem auto 0 auto;
+  width: 6.933333rem;
+  height: 1.013333rem;
+  border-radius: 0.506667rem;
+  line-height: 1.013333rem;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #999;
+  font-size: 0.426667rem;
+}
+.banner_bottom {
+  margin-top: 0.6rem;
+}
+.banner_bottom img {
+  width: 100%;
+}
+.footer {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0px -3px 6px 0px rgba(236, 234, 234, 0.8);
+}
+.footer a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+}
+.footer a.active {
+  color: #333;
+}
+.footer i {
+  font-size: 18px;
+}
+.footer span {
+  margin-top: 5px;
+  line-height: 1;
+  font-size: 12px;
+}
